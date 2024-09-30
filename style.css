@@ -83,7 +83,7 @@ header {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    padding: 50px 210px;
+    padding: 50px 280px;
 }
 
 .info-title {
@@ -97,7 +97,7 @@ header {
 .info-boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     gap: 30px;
 }
@@ -124,7 +124,7 @@ header {
 
 .quote-section {
     background-color: #e5e7eb;
-    padding: 100px 250px;
+    padding: 100px 280px;
 }
 
 .quote {
@@ -141,4 +141,46 @@ header {
     margin-right: 40px;
 }
 
+.call-to-action {
+    padding: 0 210px;
+}
+
+.cta-box {
+    background-color: #3882f6;
+    border-radius: 15px;
+    color: #f9faf8;
+    margin: 100px 0;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-title {
+    font-size: 22px;
+}
+
+.cta-subtitle {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.cta-button {
+    padding: 5px 25px;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 30px;
+
+}
 
