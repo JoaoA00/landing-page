@@ -96,6 +96,7 @@ header {
 
 .info-boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     gap: 30px;
@@ -120,4 +121,24 @@ header {
     text-align: center;
     margin: 10px;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+    font-weight: bold;
+    font-size: 22px;
+    margin-right: 40px;
+}
+
 
